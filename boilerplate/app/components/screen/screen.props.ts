@@ -38,6 +38,11 @@ export interface ScreenProps {
    */
   keyboardOffset?: KeyboardOffsets
 
+  /** 
+   * Array of children indices to make "sticky". Defaults to none. 
+   */
+  stickyHeaderIndices?: Array<number>
+
   /**
    * Should keyboard persist on screen tap. Defaults to handled.
    * Only applies to scroll preset.
